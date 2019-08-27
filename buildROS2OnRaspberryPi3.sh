@@ -93,7 +93,8 @@ if [[ "$DoFetchBuildTools" == "yes" ]] ; then
       flake8-import-order \
       flake8-quotes \
       pytest-repeat \
-      pytest-rerunfailures
+      pytest-rerunfailures \
+      catkin_pkg
     # [Ubuntu 16.04] install extra packages not available or recent enough on Xenial
     python3 -m pip install -U \
       pytest \
